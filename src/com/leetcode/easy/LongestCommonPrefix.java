@@ -1,7 +1,6 @@
 package com.leetcode.easy;
 
 import java.util.Arrays;
-import java.util.Map;
 
 public class LongestCommonPrefix {
 
@@ -41,10 +40,4 @@ public class LongestCommonPrefix {
         return result.toString();
     }
 
-
-    public static void main(String[] args) {
-
-        String[] commonPrefix = {"leet", "leetcode", "leeds", "lee", "leecoq"};
-        System.out.println(longestCommonPrefix(commonPrefix));
-    }
 }
