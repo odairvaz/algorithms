@@ -38,7 +38,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TwoSum">
+  <component name="RunManager" selected="Application.TwoSum2">
     <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.LongestCommonPrefix" />
       <module name="algorithms" />
@@ -65,8 +65,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.TwoSum2" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSum2" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.LongestCommonPrefix" />
       </list>
@@ -82,7 +96,7 @@
       <updated>1669127259859</updated>
       <workItem from="1669127262368" duration="5711000" />
       <workItem from="1669195915065" duration="4442000" />
-      <workItem from="1669279690502" duration="637000" />
+      <workItem from="1669279690502" duration="1804000" />
     </task>
     <servers />
   </component>
@@ -105,13 +119,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/leetcode/medium/TwoSum2.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="1" />
+          <line>8</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/leetcode/medium/TwoSum2.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="2" />
+          <line>15</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
