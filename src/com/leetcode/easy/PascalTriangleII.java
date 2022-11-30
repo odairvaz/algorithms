@@ -5,7 +5,7 @@ import java.util.List;
 
 public class PascalTriangleII {
 
-    public static List<Integer> getRow(int rowIndex) {
+    public List<Integer> getRow(int rowIndex) {
         List<Integer> curr, prev = new ArrayList<>() {
             {
                 add(1);
@@ -28,11 +28,5 @@ public class PascalTriangleII {
 
         return prev;
     }
-
-
-    public static void main(String[] args) {
-        System.out.println(getRow(4));
-    }
-
 
 }
