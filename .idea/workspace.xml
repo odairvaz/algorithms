@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b9ab82a-7fad-4348-a6f3-ac0c939f276f" name="Changes" comment="" />
+    <list default="true" id="6b9ab82a-7fad-4348-a6f3-ac0c939f276f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +35,39 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TwoSum2">
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.LongestCommonPrefix" />
+  <component name="RunManager" selected="Application.SingleNumber">
+    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.MoveZeroes" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicatesSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.RemoveDuplicatesSortedArray" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseWordsString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.ReverseWordsString" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -50,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.TwoSum" />
+    <configuration name="ReverseWordsStringIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.ReverseWordsStringIII" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -63,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.TwoSum2" />
+    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.SingleNumber" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.medium.*" />
+          <option name="PATTERN" value="com.leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,9 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwoSum2" />
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.LongestCommonPrefix" />
+        <item itemvalue="Application.SingleNumber" />
+        <item itemvalue="Application.MoveZeroes" />
+        <item itemvalue="Application.RemoveDuplicatesSortedArray" />
+        <item itemvalue="Application.ReverseWordsStringIII" />
+        <item itemvalue="Application.ReverseWordsString" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +125,15 @@
       <updated>1669127259859</updated>
       <workItem from="1669127262368" duration="5711000" />
       <workItem from="1669195915065" duration="4442000" />
-      <workItem from="1669279690502" duration="2444000" />
+      <workItem from="1669279690502" duration="2890000" />
+      <workItem from="1669626541768" duration="2324000" />
+      <workItem from="1669703861459" duration="6650000" />
+      <workItem from="1669788998296" duration="8199000" />
+      <workItem from="1669876434782" duration="3624000" />
+      <workItem from="1669966833715" duration="1096000" />
+      <workItem from="1670001750366" duration="596000" />
+      <workItem from="1670222026150" duration="1987000" />
+      <workItem from="1670240320870" duration="2474000" />
     </task>
     <servers />
   </component>
@@ -124,6 +163,26 @@
           <url>file://$PROJECT_DIR$/src/com/leetcode/medium/TwoSum2.java</url>
           <line>15</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/RotateArray.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/PascalTriangleII.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ReverseWordsString.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ReverseWordsStringIII.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
