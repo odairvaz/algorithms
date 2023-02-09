@@ -39,35 +39,9 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SingleNumber">
-    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.MoveZeroes" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDuplicatesSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.RemoveDuplicatesSortedArray" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseWordsString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.ReverseWordsString" />
+  <component name="RunManager" selected="Application.RandomizedSet">
+    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.LongestSubstringWithoutRepeatingCharacters" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +53,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsStringIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.ReverseWordsStringIII" />
+    <configuration name="RandomizedSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.RandomizedSet" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +66,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.SingleNumber" />
+    <configuration name="TopKFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.TopKFrequentElements" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.ValidSudoku" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidWordAbbr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.ValidWordAbbr" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingleNumber" />
-        <item itemvalue="Application.MoveZeroes" />
-        <item itemvalue="Application.RemoveDuplicatesSortedArray" />
-        <item itemvalue="Application.ReverseWordsStringIII" />
-        <item itemvalue="Application.ReverseWordsString" />
+        <item itemvalue="Application.RandomizedSet" />
+        <item itemvalue="Application.TopKFrequentElements" />
+        <item itemvalue="Application.ValidWordAbbr" />
+        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
+        <item itemvalue="Application.ValidSudoku" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +133,21 @@
       <workItem from="1669966833715" duration="1096000" />
       <workItem from="1670001750366" duration="596000" />
       <workItem from="1670222026150" duration="1987000" />
-      <workItem from="1670240320870" duration="2474000" />
+      <workItem from="1670240320870" duration="4465000" />
+      <workItem from="1670307301818" duration="4858000" />
+      <workItem from="1670319095234" duration="622000" />
+      <workItem from="1670399376612" duration="592000" />
+      <workItem from="1670577232242" duration="3899000" />
+      <workItem from="1670832190294" duration="7305000" />
+      <workItem from="1670936776613" duration="4525000" />
+      <workItem from="1671004187125" duration="7404000" />
+      <workItem from="1671029589112" duration="997000" />
+      <workItem from="1671095674412" duration="3549000" />
+      <workItem from="1671527043337" duration="5510000" />
+      <workItem from="1671873044172" duration="1831000" />
+      <workItem from="1672156524977" duration="2124000" />
+      <workItem from="1673272077727" duration="3500000" />
+      <workItem from="1673421829395" duration="1382000" />
     </task>
     <servers />
   </component>
@@ -184,7 +198,99 @@
           <line>5</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/IntersectionTwoArrays.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/IntersectionTwoArrays.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/MinimumIndexSumofTwoLists.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/IntersectionTwoArraysII.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/IntersectionTwoArraysII.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/ContainsDuplicateII.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ValidSudoku.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ValidSudoku.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/TopKFrequentElements.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/ValidWordAbbr.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/ValidWordAbbr.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/ValidWordAbbr.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/ValidWordAbbr.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/TopKFrequentElements.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/RandomizedSet.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/RandomizedSet.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="groupedAnagrams" />
+        <watch expression="list" language="JAVA" />
+        <watch expression="dict" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
