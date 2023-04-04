@@ -42,8 +42,8 @@ public class BinaryTreeLevelOrderTraversal {
             levels.add(new ArrayList<>());
 
             // number of elements in the current level
-            int level_length = queue.size();
-            for(int i = 0; i < level_length; ++i) {
+            int levelLength = queue.size();
+            for(int i = 0; i < levelLength; ++i) {
                 TreeNode node = queue.remove();
 
                 // fulfill the current level

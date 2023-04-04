@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6b9ab82a-7fad-4348-a6f3-ac0c939f276f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/easy/BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/easy/BinaryTreeInorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/easy/BinaryTreeLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/easy/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/easy/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/easy/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/medium/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/medium/FindDuplicateSubtrees.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +40,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RandomizedSet">
-    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.LongestSubstringWithoutRepeatingCharacters" />
+  <component name="RunManager" selected="Application.SerializeDeserializeBinaryTree">
+    <configuration name="ConstructBinaryTreePreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.ConstructBinaryTreePreOrder" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -53,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomizedSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.RandomizedSet" />
+    <configuration name="LowestCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.LowestCommonAncestor" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopKFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.TopKFrequentElements" />
+    <configuration name="PopulatingNextRightPointers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.PopulatingNextRightPointers" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.ValidSudoku" />
+    <configuration name="PopulatingNextRightPointersII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.PopulatingNextRightPointersII" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -92,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidWordAbbr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.ValidWordAbbr" />
+    <configuration name="SerializeDeserializeBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.hard.SerializeDeserializeBinaryTree" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.easy.*" />
+          <option name="PATTERN" value="com.leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RandomizedSet" />
-        <item itemvalue="Application.TopKFrequentElements" />
-        <item itemvalue="Application.ValidWordAbbr" />
-        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
-        <item itemvalue="Application.ValidSudoku" />
+        <item itemvalue="Application.SerializeDeserializeBinaryTree" />
+        <item itemvalue="Application.LowestCommonAncestor" />
+        <item itemvalue="Application.PopulatingNextRightPointersII" />
+        <item itemvalue="Application.PopulatingNextRightPointers" />
+        <item itemvalue="Application.ConstructBinaryTreePreOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +153,23 @@
       <workItem from="1672156524977" duration="2124000" />
       <workItem from="1673272077727" duration="3500000" />
       <workItem from="1673421829395" duration="1382000" />
+      <workItem from="1677787220807" duration="1558000" />
+      <workItem from="1678016102670" duration="2994000" />
+      <workItem from="1678216441173" duration="2869000" />
+      <workItem from="1678561747084" duration="2059000" />
+      <workItem from="1678638359063" duration="4194000" />
+      <workItem from="1678817652421" duration="3463000" />
+      <workItem from="1678910607390" duration="1218000" />
+      <workItem from="1679231893957" duration="6123000" />
+      <workItem from="1679427904217" duration="2039000" />
+      <workItem from="1679734491339" duration="3732000" />
+      <workItem from="1679827994713" duration="8431000" />
+      <workItem from="1679940200361" duration="3143000" />
+      <workItem from="1680114739092" duration="2304000" />
+      <workItem from="1680119869876" duration="182000" />
+      <workItem from="1680376409073" duration="4535000" />
+      <workItem from="1680453795331" duration="4844000" />
+      <workItem from="1680629363744" duration="595000" />
     </task>
     <servers />
   </component>
@@ -283,14 +305,102 @@
           <line>27</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/BinaryTreeInorderTraversal.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/BinaryTreeInorderTraversal.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/BinaryTreeInorderTraversal.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/MaxDeptTree.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/MaxDeptTree.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/MaxDeptTree.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/PathSum.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/CountUnivalueSubtrees.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreePostOrder.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreePostOrder.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreePreOrder.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreePreOrder.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/PopulatingNextRightPointers.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/PopulatingNextRightPointers.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/PopulatingNextRightPointersII.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/PopulatingNextRightPointersII.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/LowestCommonAncestor.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/hard/SerializeDeserializeBinaryTree.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/hard/SerializeDeserializeBinaryTree.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="groupedAnagrams" />
-        <watch expression="list" language="JAVA" />
-        <watch expression="dict" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

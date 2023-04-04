@@ -37,4 +37,11 @@ public class BinaryTreeInorderTraversal {
         return res;
     }
 
+    static int minVal(TreeNode root) {
+        if (root == null) return Integer.MAX_VALUE;
+        int leftVal = minVal(root.left);
+        int rightVal = minVal(root.right);
+        return Math.min(root.val, Math.min(leftVal, rightVal));
+    }
+
 }

@@ -1,18 +1,17 @@
 package com.leetcode.easy;
 
-public class TreeNode {
+public class Node {
+
     public int val;
-    public TreeNode left;
-    public TreeNode right;
+    public Node left;
+    public Node right;
+    public Node next;
 
-    TreeNode() {
-    }
-
-    public TreeNode(int val) {
+    public Node(int val) {
         this.val = val;
     }
 
-    public TreeNode(int val, TreeNode left, TreeNode right) {
+    public Node(int val, Node left, Node right) {
         this.val = val;
         this.left = left;
         this.right = right;
@@ -20,10 +19,13 @@ public class TreeNode {
 
     @Override
     public String toString() {
-        return "TreeNode{" +
+        return "Node{" +
                 "val=" + val +
                 ", left=" + left +
                 ", right=" + right +
+                ", next=" + next +
                 '}';
     }
 }
+
+
